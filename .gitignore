@@ -1,0 +1,28 @@
+# Local Python & Virtual Environment
+__pycache__/
+*.py[cod]
+*$py.class
+backend/venv/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local SQLite Database & Data
+data/*.db
+data/*.sqlite3
+data/*.csv
+
+# Local Environment Secrets
+.env
+.env.local
+backend/.env
+
+# Node & Frontend Build
+frontend/node_modules/
+frontend/dist/
+frontend/.cache/
+*.log
+
+# OS Specific
+.DS_Store
+Thumbs.db
