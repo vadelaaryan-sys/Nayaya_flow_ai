@@ -22,3 +22,8 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+# Backend local database
+backend/data/*.db
+backend/data/*.sqlite3
+
+# Environment example must not contain real secrets
